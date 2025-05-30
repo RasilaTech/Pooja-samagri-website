@@ -12,4 +12,7 @@ export interface ProductVariant {
   image: string[];
   brand_name: string;
   out_of_stock: boolean;
+  min_quantity?: number;
+  max_quantity?: number;
+  total_available_quantity: number;
 }

@@ -36,6 +36,7 @@ const demoProducts: Product[] = [
           },
         ],
         out_of_stock: false,
+        total_available_quantity: 1000,
       },
       {
         variant_id: "1234",
@@ -64,6 +65,7 @@ const demoProducts: Product[] = [
         ],
         brand_name: "Shubh Labh",
         out_of_stock: false,
+        total_available_quantity: 1000,
       },
     ],
   },
@@ -99,6 +101,7 @@ const demoProducts: Product[] = [
           },
         ],
         out_of_stock: false,
+        total_available_quantity: 1000,
       },
     ],
   },
